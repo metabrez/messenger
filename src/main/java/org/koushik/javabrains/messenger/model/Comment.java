@@ -4,6 +4,7 @@ import java.util.Date;
 
 public class Comment {
 	
+	
 	private long id;
 	private String message;
 	private Date created;
@@ -15,6 +16,8 @@ public class Comment {
 		this.id = id;
 	}
 	public String getMessage() {
+		
+		System.out.println("This is a test1");
 		return message;
 	}
 	public void setMessage(String message) {
